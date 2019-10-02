@@ -56,5 +56,5 @@ WebUI.setText(findTestObject('Object Repository/Company/Page_eTax/input__contact
 
 WebUI.click(findTestObject('Company/Company/Page_eTax/button_Save'))
 
-WebUI.delay(10)
+WebUI.delay(5)
 
