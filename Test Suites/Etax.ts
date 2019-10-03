@@ -25,7 +25,7 @@
    <testCaseLink>
       <guid>d41b6594-20ca-4369-aa61-02c5079d409c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/BIR_FORM_0605</testCaseId>
    </testCaseLink>
    <testCaseLink>

@@ -14,6 +14,20 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+not_run: WebUI.openBrowser('')
+
+not_run: WebUI.maximizeWindow()
+
+not_run: WebUI.navigateToUrl('http://member.etax.ph/')
+
+not_run: WebUI.waitForPageLoad(5)
+
+not_run: WebUI.setText(findTestObject('Etax_Login/Page_eTax/input_Username_username'), 'maruestopia')
+
+not_run: WebUI.setEncryptedText(findTestObject('Etax_Login/Page_eTax/input_Password_password'), 'qEo0rSLi8fL36UBcqwrx5w==')
+
+not_run: WebUI.click(findTestObject('Object Repository/Etax_Login/Page_eTax/button_Login'))
+
 WebUI.click(findTestObject('Form_0605/Page_eTax  Dashboard/a_Company'))
 
 WebUI.click(findTestObject('Form_0605/Page_eTax  Companies/a_Open'))
