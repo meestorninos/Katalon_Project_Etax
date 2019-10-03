@@ -16,16 +16,19 @@ import org.openqa.selenium.Keys as Keys
 
 not_run: WebUI.openBrowser('')
 
+not_run: WebUI.maximizeWindow()
+
 not_run: WebUI.navigateToUrl('http://member.etax.ph/')
 
-not_run: WebUI.setText(findTestObject('Object Repository/BIR_FORM_0619E/Page_eTax/input_Username_username'), 'maruestopia')
+not_run: WebUI.waitForPageLoad(5)
 
-not_run: WebUI.setEncryptedText(findTestObject('Object Repository/BIR_FORM_0619E/Page_eTax/input_Password_password'), 'qEo0rSLi8fL36UBcqwrx5w==')
+not_run: WebUI.setText(findTestObject('Etax_Login/Page_eTax/input_Username_username'), 'maruestopia')
 
-not_run: WebUI.sendKeys(findTestObject('Object Repository/BIR_FORM_0619E/Page_eTax/input_Password_password'), Keys.chord(
-        Keys.ENTER))
+not_run: WebUI.setEncryptedText(findTestObject('Etax_Login/Page_eTax/input_Password_password'), 'qEo0rSLi8fL36UBcqwrx5w==')
 
-WebUI.waitForPageLoad(5)
+not_run: WebUI.click(findTestObject('Object Repository/Etax_Login/Page_eTax/button_Login'))
+
+not_run: WebUI.waitForPageLoad(5)
 
 WebUI.click(findTestObject('Object Repository/BIR_FORM_0619E/Page_eTax  Dashboard/a_Company'))
 
@@ -58,7 +61,11 @@ WebUI.acceptAlert()
 
 WebUI.click(findTestObject('Object Repository/BIR_FORM_0619E/Page_eTax  BIR Form No 0619E/input_NOTE Please read the BIR Data Privacy Policy found in the BIR website (wwwbirgovph)_btnSave'))
 
-WebUI.click(findTestObject('Object Repository/BIR_FORM_0619E/Page_eTax  BIR Form No 0619E/button_Okay'))
+WebUI.delay(2)
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Form_0605/Page_eTax  BIR Form No 0605/button_Okay'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('BIR_FORM_06019F/Page_eTax  BIR Form No 0619E/img'))
 

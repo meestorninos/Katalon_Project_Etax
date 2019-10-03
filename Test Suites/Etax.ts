@@ -34,4 +34,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/BIR_FORM_0619E</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>aedaf7d6-f7e6-4163-b03f-8f7c70f3a13c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BIR_FORM_0619F</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
