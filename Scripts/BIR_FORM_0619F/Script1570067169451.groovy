@@ -37,7 +37,6 @@ WebUI.setText(findTestObject('Object Repository/BIR_FORM_06019F/Page_eTax  BIR F
 
 //WebUI.setText(findTestObject('Object Repository/BIR_FORM_06019F/Page_eTax  BIR Form No 0619F/input_Amount of Remittance_frm0619FtxtTax13'), 
 //    '3000000')
-
 WebUI.click(findTestObject('Object Repository/BIR_FORM_06019F/Page_eTax  BIR Form No 0619F/input_NOTE Please read the BIR Data Privacy Policy found in the BIR website (wwwbirgovph)_frm0619FcmdValidate'))
 
 WebUI.acceptAlert()
@@ -48,5 +47,7 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/BIR_FORM_06019F/Page_eTax  BIR Form No 0619F/button_Okay'))
 
-WebUI.closeBrowser()
+WebUI.delay(2)
+
+WebUI.click(findTestObject('BIR_FORM_06019F/Page_eTax  BIR Form No 0619E/img'))
 
