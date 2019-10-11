@@ -43,11 +43,7 @@ WebUI.acceptAlert()
 
 WebUI.click(findTestObject('Object Repository/BIR_FORM_06019F/Page_eTax  BIR Form No 0619F/input_NOTE Please read the BIR Data Privacy Policy found in the BIR website (wwwbirgovph)_btnSave'))
 
-WebUI.delay(2)
-
 WebUI.click(findTestObject('Object Repository/BIR_FORM_06019F/Page_eTax  BIR Form No 0619F/button_Okay'))
-
-WebUI.delay(2)
 
 WebUI.click(findTestObject('BIR_FORM_06019F/Page_eTax  BIR Form No 0619E/img'))
 

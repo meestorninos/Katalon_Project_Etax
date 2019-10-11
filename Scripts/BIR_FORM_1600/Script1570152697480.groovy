@@ -28,11 +28,7 @@ WebUI.click(findTestObject('Object Repository/BIR_FORM_1600/Page_eTax  BIR Form 
 
 WebUI.click(findTestObject('Object Repository/BIR_FORM_1600/Page_eTax  BIR Form No 1600/a_ATC'))
 
-WebUI.delay(3)
-
 WebUI.check(findTestObject('BIR_FORM_1600/Page_eTax  BIR Form No 1600/input_WV050_AtcCode2'))
-
-WebUI.delay(2)
 
 WebUI.click(findTestObject('BIR_FORM_1600/Page_eTax  BIR Form No 1600/input_OTHER SERVICES RENDERED IN THE PHILIPPINES BY NON-RESIDENTS_btnOkPop'))
 
@@ -47,11 +43,7 @@ WebUI.acceptAlert()
 
 WebUI.click(findTestObject('BIR_FORM_1600/Page_eTax  BIR Form No 1600/input_Machine ValidationRevenue Official Receipt Details (If not filed with an Authorized Agent Bank)_btnSave'))
 
-WebUI.delay(2)
-
 WebUI.click(findTestObject('BIR_FORM_1600/Page_eTax  BIR Form No 1600/button_Okay'))
-
-WebUI.delay(2)
 
 WebUI.click(findTestObject('BIR_FORM_06019F/Page_eTax  BIR Form No 0619E/img'))
 
