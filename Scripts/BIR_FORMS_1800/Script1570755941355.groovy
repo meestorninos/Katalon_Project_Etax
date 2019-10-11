@@ -105,5 +105,5 @@ WebUI.click(findTestObject('Object Repository/BIR_FORM_1800/Page_eTax  BIR Form 
 
 WebUI.click(findTestObject('Object Repository/BIR_FORM_1800/Page_eTax  BIR Form No 1800/button_Okay'))
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Object Repository/BIR_FORM_1600WP/Page_eTax  BIR Form No 1600WP/img'))
 
