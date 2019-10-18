@@ -88,4 +88,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/BIR_FORM_1606</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>507922fd-90d3-4335-b120-d39ef0ccf81a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BIR_FORM_1701A</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bf2e3bc4-d58a-4f87-96b1-8a33a8258c83</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BIR_FORM_1701Q</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
